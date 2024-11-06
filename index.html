@@ -1,6 +1,20 @@
-<html>
-<title>M1</title>
+<!DOCTYPE html>
+<html lang="fr">
 <head>
-hello world!!!!
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de Nom et Prénom</title>
 </head>
+<body>
+    <h2>Entrez vos informations</h2>
+    <form action="afficher.html" method="GET">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required><br><br>
+        
+        <label for="prenom">Prénom :</label>
+        <input type="text" id="prenom" name="prenom" required><br><br>
+        
+        <button type="submit">Enregistrer</button>
+    </form>
+</body>
 </html>
